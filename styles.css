@@ -1,0 +1,176 @@
+:root {
+  --primary: red;
+  --secondary: black;
+  --neutral: white;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  border: 2px solid;
+  border-radius: 1rem;
+
+  gap: 1rem;
+}
+
+.container .res {
+  color: var(--primary);
+}
+
+.container strong {
+  color: var(--primary);
+}
+
+.container .indent {
+  padding-left: .75rem;
+}
+
+.container button {
+  cursor: pointer;
+  
+  padding: .25rem .75rem;
+  margin-left: .25rem;
+  border: 1px solid;
+  border-radius: 5px;
+  
+  background-color: transparent;
+}
+
+.container input:hover, 
+.container button:hover {
+  box-shadow: 0 0 0 1px var(--secondary);
+}
+
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+}
+
+/* Exercício 1 */
+
+  .ex1 .res,
+  .ex3 .res,
+  .ex4 .res {
+    padding: 1px .25rem;
+    margin-left: .25rem;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+  }
+
+/* Exercício 2 */
+
+.ex2 p,
+.ex5 p {
+  margin: 0 0 .5rem .75rem;
+
+  font-size: 14px;
+}
+
+.ex2 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ex2 input {
+  width: 2rem;
+
+  padding: .25rem;
+}
+
+.ex2 .res {
+  margin-left: .5rem;
+
+  font-size: 14px;
+}
+
+/* Exercício 3 */
+
+.ex3 p{
+  margin-bottom: 1rem;
+}
+
+.ex3 p:last-child {
+  margin: 0;
+}
+
+/* Exercício 4 */
+
+.ex4 p {
+  text-align: center;
+
+  margin-bottom: 1rem;
+}
+
+.ex4 table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid ;
+
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.ex4 thead {
+  background-color: rgb(255, 29, 29);
+  color: var(--neutral);
+}
+
+.ex4 thead th:nth-of-type(1) {
+  width: 100px;
+}
+
+.ex4 thead th:nth-of-type(2) {
+  width: 100px;
+}
+
+.ex4 thead th:nth-of-type(3) {
+  width: 100px;
+}
+
+.ex4 tbody td:nth-of-type(2) {
+  font-weight: bold;
+
+  color: var(--primary);
+}
+
+.ex4 th,
+.ex4 td {
+  text-align: center;
+
+  border: 1px solid var(--secondary);
+  padding: 8px 10px;
+}
+
+/* Exercício 5 */
+
+.ex5 input {
+  padding: .25rem;
+  margin-top: .25rem;
+}
+
+.ex5 span {
+  display: block;
+
+  margin: .5rem 0 0 .5rem;
+}

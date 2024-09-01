@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <title>Desafio Técnico | Vaga Estágio</title>
+</head>
+<body>
+  <div class="container">
+    <section class="ex1">
+      <h2>1-</h2>
+
+      <p class="indent">O valor da variável SOMA = <span class="res" id="resEx1"></span></p>
+    </section>
+
+    <section class="ex2">
+      <h2>2-</h2>
+
+      <p>Digite um número e verifique se ele pertence a sequencia de Fibonacci:</p>
+
+      <form class="indent" id="formEx2">
+        <input type="number" id="inputEx2">
+
+        <button type="submit">Verificar</button>
+
+        <span id="resEx2"></span>
+      </form>
+    </section>
+
+    <section class="ex3">
+      <h2>3-</h2>
+
+      <div class="indent">
+        <p>Menor valor de faturamento ocorrido em um dia do mês = <span class="res" id="resEx3Menor"></span></p>
+        <p>Maior valor de faturamento ocorrido em um dia do mês = <span class="res" id="resEx3Maior"></span></p>
+        <p>Número de dias no mês com o faturamento do dia acima da média = <span class="res" id="resEx3Media"></span></p>
+      </div>
+    </section>
+
+    <section class="ex4">
+      <h2>4-</h2>
+
+      <div class="indent">
+        <p>Total mensal da distribuidora = <span class="res" id="resTotal"></span></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Estado</th>
+              <th scope="col">Faturamento</th>
+              <th scope="col">Percentual</th>
+            </tr>
+          </thead>
+
+          <tbody id="resTabela">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ex5">
+      <h2>5-</h2>
+
+      <p>Digite uma palavra para ser invertida:</p>
+
+      <form class="indent" id="formEx5">
+        <input type="text" id="inputEx5">
+
+        <button type="submit">Inverter</button>
+
+        <span id="resEx5"></span>
+      </form>
+    </section> 
+  </div> 
+
+  <script src="script.js"></script>
+</body>
+</html>

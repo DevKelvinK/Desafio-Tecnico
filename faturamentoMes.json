@@ -1,0 +1,39 @@
+{
+  "faturamento_diario": [
+    { "dia": "01", "dia_sem": "segunda", "valor": 12000.5 },
+    { "dia": "02", "dia_sem": "terça", "valor": 15500.75 },
+    { "dia": "03", "dia_sem": "quarta", "valor": 11000.0 },
+    { "dia": "04", "dia_sem": "quinta", "valor": 13000.2 },
+    { "dia": "05", "dia_sem": "sexta", "valor": 0 },
+    { "dia": "06", "dia_sem": "sabado", "valor": 6500.6 },
+    { "dia": "07", "dia_sem": "domingo", "valor": 0 },
+
+    { "dia": "08", "dia_sem": "segunda", "valor": 14500.25 },
+    { "dia": "09", "dia_sem": "terça", "valor": 11500.8 },
+    { "dia": "10", "dia_sem": "quarta", "valor": 15000.0 },
+    { "dia": "11", "dia_sem": "quinta", "valor": 16000.4 },
+    { "dia": "12", "dia_sem": "sexta", "valor": 11000.9 },
+    { "dia": "13", "dia_sem": "sabado", "valor": 5000.6 },
+    { "dia": "14", "dia_sem": "domingo", "valor": 0 },
+
+    { "dia": "15", "dia_sem": "segunda", "valor": 14000.75 },
+    { "dia": "16", "dia_sem": "terça", "valor": 15000.6 },
+    { "dia": "17", "dia_sem": "quarta", "valor": 16000.5 },
+    { "dia": "18", "dia_sem": "quinta", "valor": 12500.2 },
+    { "dia": "19", "dia_sem": "sexta", "valor": 14500.8 },
+    { "dia": "20", "dia_sem": "sabado", "valor": 3000.0 },
+    { "dia": "21", "dia_sem": "domingo", "valor": 0 },
+
+    { "dia": "22", "dia_sem": "segunda", "valor": 15000.75 },
+    { "dia": "23", "dia_sem": "terça", "valor": 16000.4 },
+    { "dia": "24", "dia_sem": "quarta", "valor": 12500.6 },
+    { "dia": "25", "dia_sem": "quinta", "valor": 0 },
+    { "dia": "26", "dia_sem": "sexta", "valor": 14500.25 },
+    { "dia": "27", "dia_sem": "sabado", "valor": 7000.0 },
+    { "dia": "28", "dia_sem": "domingo", "valor": 0 },
+
+    { "dia": "29", "dia_sem": "segunda", "valor": 17000.3 },
+    { "dia": "30", "dia_sem": "terça", "valor": 17500.0 },
+    { "dia": "31", "dia_sem": "quarta", "valor": 18000.4 }
+  ]
+}
