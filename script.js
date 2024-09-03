@@ -53,7 +53,7 @@ submitNum.addEventListener("submit", (e) => {
 fetch("faturamentoMes.json")
   .then((resp) => resp.json())
   .then((data) => {
-    let arrFaturamento = data.faturamento_diario;
+    let arrFaturamento = data;
 
     let menorValor = arrFaturamento[0].valor;
     let maiorValor = arrFaturamento[0].valor;
@@ -82,12 +82,16 @@ fetch("faturamentoMes.json")
 
       // Média dos valores de faturamento
       mediaValores = (soma += faturamento) / diasFaturados;
+    });
+
+    arrFaturamento.map((obj) => {
+      let faturamento = obj.valor;
 
       // Quantidade de dias com faturamento acima da média
       if (faturamento > mediaValores) {
         faturamentoAcimaMedia += 1;
       }
-    });
+    }); 
 
     document.querySelector("#resEx3Menor").innerHTML = `R$ ${menorValor.toFixed(2)}`;
 
